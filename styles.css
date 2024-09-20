@@ -43,16 +43,16 @@ h2{
     background-color: #3C3D37;
 }
 .flexO{
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 .flexA{
     flex-basis: 15%;
 }
 .flexB{
-    flex-basis: 20%;
+    flex-basis: 15%;
 }
 .flexC{
-    flex-basis: 25%;
+    flex-basis: 40%;
     font-size: 0.75rem;
 }
 .self{
@@ -68,7 +68,7 @@ h2{
     font-family: serif;
 }
 .biggerpara{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: serif;
 }
 .container-float{
