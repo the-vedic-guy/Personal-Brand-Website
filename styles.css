@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    color: #ECDFCC;
+}
+.container-home{
+    background-color: #181C14;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    height: 100vh;
+}
+h1{
+    font-family: serif;
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2{
+    font-family: serif;
+    text-align: center;
+}
+.arrowdown{
+    grid-area: 1/2/2/5;
+    margin: 0;
+    padding: 0;
+}
+.arrowup{
+    grid-area: -1/-2/-2/-5;
+    margin: 0;
+    padding: 0;
+    justify-self: end;
+}
+.heading{
+    grid-area: 2/3/3/4;
+}
+/*About*/
+.container-about{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ECDFCC;
+    background-color: #3C3D37;
+}
+.flexO{
+    flex-basis: 40%;
+}
+.flexA{
+    flex-basis: 15%;
+}
+.flexB{
+    flex-basis: 20%;
+}
+.flexC{
+    flex-basis: 25%;
+    font-size: 0.75rem;
+}
+.self{
+    height: 100px;
+    border-radius: 50%;
+}
+#brief{
+    text-align: center;
+    font-family: sans-serif;
+}
+.subheading{
+    font-size: 2rem;
+    font-family: serif;
+}
+.biggerpara{
+    font-size: 1.5rem;
+    font-family: serif;
+}
+.container-float{
+    height: 100vh;
+    background-color: #697565;
+    text-align: left;
+}
+.leftdiv{
+    position: relative;
+    top: 35%;
+    left: 5%;
+    float: left;
+    height: 350px;
+    width: 40%;
+    font-family: sans-serif;
+}
+.rightdiv{
+    position: relative;
+    top: 35%;
+    right: 5%;
+    float: right;
+    height: 350px;
+    width: 40%;
+    font-family: sans-serif;
+}
+.penimage{
+    float: left;
+    margin: 2%;
+}
+.cameraimage{
+    float: left;
+    margin: 2%;
+}
+@media(max-width: 700px){
+    .leftdiv{
+        width: 80%;
+        float: left;
+        position: relative;
+        top: 5%;
+        left: 1%;
+    }
+    .rightdiv{
+        width: 80%;
+        height: 300px;
+        float: left;
+        position: relative;
+        top: 1%;
+        left: 1%;
+    }
+}
+.container-contact{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 10% 25% 10% 25%;
+    text-align: center;
+    background-color: #181C14;
+}
+.contacthead{
+    font-size: 2rem;
+    align-self: end;
+    font-family: serif;
+}
+.contactsub{
+    font-size: 1.5rem;
+    align-self: start;
+    font-family: sans-serif;
+}
+.contactwords{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+.button{
+    background-color: #697565;
+    border-radius: 10%;
+    border: 20px;
+    padding: 5px;
+    font-size: 1rem;
+    color: #ECDFCC;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.footer{
+    background-color: #697565;
+}
+.footerelement{
+    color: #ECDFCC;
+}
+.button:hover{
+    background-color: #181C14;
+}
+.footerelement:hover{
+    color: white;
+}
